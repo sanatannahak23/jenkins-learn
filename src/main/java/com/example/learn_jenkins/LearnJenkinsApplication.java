@@ -15,6 +15,7 @@ public class LearnJenkinsApplication {
     @PostConstruct
     public void init() {
         log.info("Trying to do continuous integration..");
+		log.info("A additional feature is added...");
     }
 
     public static void main(String[] args) {
@@ -25,6 +26,7 @@ public class LearnJenkinsApplication {
     @PreDestroy
     public void destroy() {
         log.info("project executed successfully...");
+		log.info("That additional feature is also deleted...");
     }
 
 }
