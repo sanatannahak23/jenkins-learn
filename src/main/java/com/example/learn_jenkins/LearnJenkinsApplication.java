@@ -29,4 +29,8 @@ public class LearnJenkinsApplication {
 		log.info("That additional feature is also deleted...");
     }
 
+	public void oneMore(){
+		log.info("simply added...");
+	}
+
 }
